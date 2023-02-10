@@ -193,7 +193,6 @@ class SimVars {
   ID PumpStateEngine2;
   ID PumpStateEngine3;
   ID PumpStateEngine4;
-  ID PerPaxWeight;
   ID ThrustLimitType;
   ID ThrustLimitIdle;
   ID ThrustLimitToga;

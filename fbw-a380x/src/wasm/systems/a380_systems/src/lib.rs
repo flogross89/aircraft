@@ -251,6 +251,7 @@ impl SimulationElement for A380 {
         self.electrical_overhead.accept(visitor);
         self.emergency_electrical_overhead.accept(visitor);
         self.fuel.accept(visitor);
+        self.payload.accept(visitor);
         self.pneumatic_overhead.accept(visitor);
         self.engine_1.accept(visitor);
         self.engine_2.accept(visitor);
