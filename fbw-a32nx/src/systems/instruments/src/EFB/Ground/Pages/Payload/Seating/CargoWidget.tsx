@@ -14,7 +14,6 @@ interface SeatMapProps {
 
 enum CargoStation {
     FwdBag,
-    AftCont,
     AftBag,
     AftBulk
 }
@@ -43,22 +42,6 @@ export const CargoWidget: React.FC<SeatMapProps> = ({ cargo, cargoDesired, cargo
         </div>
         <div className="flex absolute top-4 left-2/3 flex-row px-4 w-fit">
             <div><BriefcaseFill size={25} className="my-1 mx-3" /></div>
-            <div className="flex flex-row mr-3 cursor-pointer" onClick={(e) => onClickCargo(CargoStation.AftCont, e)}>
-                <ProgressBar
-                    height="20px"
-                    width={`${cargoMap[CargoStation.AftCont].progressBarWidth}px`}
-                    displayBar={false}
-                    completedBarBegin={100}
-                    isLabelVisible={false}
-                    bgcolor="var(--color-highlight)"
-                    completed={cargo[CargoStation.AftCont] / cargoStationSize[CargoStation.AftCont] * 100}
-                />
-                <CaretDownFill
-                    size={25}
-                    className="absolute top-0"
-                    style={{ transform: `translateY(-12px) translateX(${cargoDesired[CargoStation.AftCont] / cargoStationSize[CargoStation.AftCont] * cargoMap[CargoStation.AftCont].progressBarWidth - 12}px)` }}
-                />
-            </div>
             <div className="flex flex-row mr-3 cursor-pointer" onClick={(e) => onClickCargo(CargoStation.AftBag, e)}>
                 <ProgressBar
                     height="20px"

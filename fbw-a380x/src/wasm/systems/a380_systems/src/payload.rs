@@ -71,9 +71,9 @@ lazy_static! {
     static ref A380_PAX: EnumMap<A380Pax, PaxInfo> = EnumMap::from_array([
         PaxInfo::new(44, "PAX_MAIN_FWD_A", "PAYLOAD_STATION_1_REQ"),
         PaxInfo::new(44, "PAX_MAIN_FWD_B", "PAYLOAD_STATION_2_REQ"), // 88
-        PaxInfo::new(46, "PAX_MAIN_MID_1A", "PAYLOAD_STATION_3_REQ"),
-        PaxInfo::new(40, "PAX_MAIN_MID_1B", "PAYLOAD_STATION_4_REQ"),
-        PaxInfo::new(49, "PAX_MAIN_MID_1C", "PAYLOAD_STATION_5_REQ"), // 135
+        PaxInfo::new(42, "PAX_MAIN_MID_1A", "PAYLOAD_STATION_3_REQ"),
+        PaxInfo::new(50, "PAX_MAIN_MID_1B", "PAYLOAD_STATION_4_REQ"),
+        PaxInfo::new(43, "PAX_MAIN_MID_1C", "PAYLOAD_STATION_5_REQ"), // 135
         PaxInfo::new(48, "PAX_MAIN_MID_2A", "PAYLOAD_STATION_6_REQ"),
         PaxInfo::new(40, "PAX_MAIN_MID_2B", "PAYLOAD_STATION_7_REQ"),
         PaxInfo::new(36, "PAX_MAIN_MID_2C", "PAYLOAD_STATION_8_REQ"), // 124

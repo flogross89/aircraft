@@ -2,8 +2,8 @@
     "specs": {
         "prefix": "A380",
         "emptyPosition": 0.83,
-        "macSize": 13.454,
-        "leMacZ": -5.386,
+        "macSize": 39.9475,
+        "leMacZ": 15.29,
         "weights": {
             "maxZfw": 510000,
             "minZfw": 270000
@@ -117,8 +117,8 @@
             ],
             "index": 0,
             "stationIndex": 1,
-            "position": 21.98,
-            "fill": 0.19,
+            "position": 70.7,
+            "fill": 0.103,
             "simVar": "PAX_MAIN_FWD_A"
         },
         {
@@ -212,30 +212,40 @@
             ],
             "index": 1,
             "stationIndex": 2,
-            "position": 21.98,
-            "fill": 0.19,
+            "position": 70.7,
+            "fill": 0.103,
             "simVar": "PAX_MAIN_FWD_B"
         },
         {
             "name": "MAIN MID 1A",
-            "capacity": 40,
+            "capacity": 42,
             "rows": [
                 {
                     "seats": [
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2  },
+                        { "type": 2, "yOffset": 68.88 },
                         { "type": 2 },
                         { "type": 2 }
                     ],
                     "x": 0,
                     "y": 0,
-                    "xOffset": 50,
+                    "xOffset": 5,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2  },
+                        { "type": 2, "yOffset": 68.88 },
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
                     "yOffset": 0
                 },
                 {
@@ -295,14 +305,32 @@
             ],
             "index": 2,
             "stationIndex": 3,
-            "position": 21.98,
-            "fill": 0.19,
-            "simVar": "PAX_MID_1_A"
+            "position": 25.6,
+            "fill": 0.099,
+            "simVar": "PAX_MAIN_MID_1A"
         },
         {
             "name": "MAIN MID 1B",
-            "capacity": 40,
+            "capacity": 50,
             "rows": [
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
                 {
                     "seats": [
                         { "type": 2 },
@@ -378,48 +406,570 @@
             ],
             "index": 3,
             "stationIndex": 4,
-            "position": 21.98,
-            "fill": 0.19,
-            "simVar": "PAX_MID_1_B"
+            "position": 25.6,
+            "fill": 0.1167,
+            "simVar": "PAX_MAIN_MID_1B"
+        },
+        {
+            "name": "MAIN MID 1C",
+            "capacity": 43,
+            "rows": [
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                }
+            ],
+            "index": 4,
+            "stationIndex": 5,
+            "position": 25.6,
+            "fill":  0.1003,
+            "simVar": "PAX_MAIN_MID_1C"
+        },
+        {
+            "name": "MAIN MID 2A",
+            "capacity": 48,
+            "rows": [
+                {
+                    "seats": [
+                        { "type": 2, "yOffset": 11.52},
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 5,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                }
+            ],
+            "index": 5,
+            "stationIndex": 6,
+            "position": -16.1,
+            "fill": 0.112,
+            "simVar": "PAX_MAIN_MID_2A"
+        },
+        {
+            "name": "MAIN MID 2B",
+            "capacity": 40,
+            "rows": [
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                }
+            ],
+            "index": 6,
+            "stationIndex": 7,
+            "position": -16.1,
+            "fill": 0.0933,
+            "simVar": "PAX_MAIN_MID_2B"
+        },
+        {
+            "name": "MAIN MID 2C",
+            "capacity": 36,
+            "rows": [
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2  },
+                        { "type": 2, "yOffset": 68.88 },
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                }
+            ],
+            "index": 7,
+            "stationIndex": 8,
+            "position": -16.1,
+            "fill":  0.084,
+            "simVar": "PAX_MAIN_MID_2C"
+        },
+        {
+            "name": "MAIN AFT A",
+            "capacity": 42,
+            "rows": [
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2  },
+                        { "type": 2, "yOffset": 68.88 },
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 5,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2  },
+                        { "type": 2, "yOffset": 68.88 },
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                }
+            ],
+            "index": 8,
+            "stationIndex": 9,
+            "position": -51.9,
+            "fill":  0.098,
+            "simVar": "PAX_MAIN_AFT_A"
+        },
+        {
+            "name": "MAIN AFT B",
+            "capacity": 40,
+            "rows": [
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                }
+            ],
+            "index": 9,
+            "stationIndex": 10,
+            "position": -51.9,
+            "fill": 0.094,
+            "simVar": "PAX_MAIN_AFT_B"
         }
     ],
     "seatMapUpper": [],
     "cargoMap": [
         {
             "name": "FWD BAGGAGE/CONTAINER",
-            "weight": 3402,
+            "weight": 28577,
             "index": 0,
-            "stationIndex": 10,
-            "position": 18.28,
+            "stationIndex": 15,
+            "position": 62.4,
             "progressBarWidth": 160,
-            "simVar": "A32NX_CARGO_FWD_BAGGAGE_CONTAINER"
-        },
-        {
-            "name": "AFT CONTAINER",
-            "weight": 2426,
-            "index": 1,
-            "stationIndex": 11,
-            "position": -15.96,
-            "progressBarWidth": 100,
-            "simVar": "A32NX_CARGO_AFT_CONTAINER"
+            "simVar": "A32NX_CARGO_FWD"
         },
         {
             "name": "AFT BAGGAGE",
-            "weight": 2110,
-            "index": 2,
-            "stationIndex": 12,
-            "position": -27.1,
-            "progressBarWidth": 100,
-            "simVar": "A32NX_CARGO_AFT_BAGGAGE"
+            "weight": 20310,
+            "index": 1,
+            "stationIndex": 16,
+            "position": -23.5,
+            "progressBarWidth": 160,
+            "simVar": "A32NX_CARGO_AFT"
         },
         {
             "name": "AFT BULK/LOOSE",
-            "weight": 1497,
-            "index": 3,
-            "stationIndex": 13,
-            "position": -37.35,
+            "weight": 2513,
+            "index": 2,
+            "stationIndex": 17,
+            "position": -57.9,
             "progressBarWidth": 100,
-            "simVar": "A32NX_CARGO_AFT_BULK_LOOSE"
+            "simVar": "A32NX_CARGO_BULK"
         }
     ],
     "chart": {

@@ -33,33 +33,52 @@ export const Payload = () => {
     const { usingMetric } = Units;
     const { showModal } = useModals();
 
-    const [aFlags] = useSeatFlags(`L:${Loadsheet.seatMap[0].simVar}`, Loadsheet.seatMap[0].capacity);
-    const [bFlags] = useSeatFlags(`L:${Loadsheet.seatMap[1].simVar}`, Loadsheet.seatMap[1].capacity);
-    const [cFlags] = useSeatFlags(`L:${Loadsheet.seatMap[2].simVar}`, Loadsheet.seatMap[2].capacity);
-    const [dFlags] = useSeatFlags(`L:${Loadsheet.seatMap[3].simVar}`, Loadsheet.seatMap[3].capacity);
+    const [mainFwdA] = useSeatFlags(`L:${Loadsheet.seatMap[0].simVar}`, Loadsheet.seatMap[0].capacity);
+    const [mainFwdB] = useSeatFlags(`L:${Loadsheet.seatMap[1].simVar}`, Loadsheet.seatMap[1].capacity);
+    const [mainMid1A] = useSeatFlags(`L:${Loadsheet.seatMap[2].simVar}`, Loadsheet.seatMap[2].capacity);
+    const [mainMid1B] = useSeatFlags(`L:${Loadsheet.seatMap[3].simVar}`, Loadsheet.seatMap[3].capacity);
+    const [mainMid1C] = useSeatFlags(`L:${Loadsheet.seatMap[4].simVar}`, Loadsheet.seatMap[4].capacity);
+    const [mainMid2A] = useSeatFlags(`L:${Loadsheet.seatMap[5].simVar}`, Loadsheet.seatMap[5].capacity);
+    const [mainMid2B] = useSeatFlags(`L:${Loadsheet.seatMap[6].simVar}`, Loadsheet.seatMap[6].capacity);
+    const [mainMid2C] = useSeatFlags(`L:${Loadsheet.seatMap[7].simVar}`, Loadsheet.seatMap[7].capacity);
+    const [mainAftA] = useSeatFlags(`L:${Loadsheet.seatMap[8].simVar}`, Loadsheet.seatMap[8].capacity);
+    const [mainAftB] = useSeatFlags(`L:${Loadsheet.seatMap[9].simVar}`, Loadsheet.seatMap[9].capacity);
 
-    const [aFlagsDesired, setAFlagsDesired] = useSeatFlags(`L:${Loadsheet.seatMap[0].simVar}_DESIRED`, Loadsheet.seatMap[0].capacity);
-    const [bFlagsDesired, setBFlagsDesired] = useSeatFlags(`L:${Loadsheet.seatMap[1].simVar}_DESIRED`, Loadsheet.seatMap[1].capacity);
-    const [cFlagsDesired, setCFlagsDesired] = useSeatFlags(`L:${Loadsheet.seatMap[2].simVar}_DESIRED`, Loadsheet.seatMap[2].capacity);
-    const [dFlagsDesired, setDFlagsDesired] = useSeatFlags(`L:${Loadsheet.seatMap[3].simVar}_DESIRED`, Loadsheet.seatMap[3].capacity);
+    const [mainFwdADesired, setMainFwdADesired] = useSeatFlags(`L:${Loadsheet.seatMap[0].simVar}_DESIRED`, Loadsheet.seatMap[0].capacity);
+    const [mainFwdBDesired, setMainFwdBDesired] = useSeatFlags(`L:${Loadsheet.seatMap[1].simVar}_DESIRED`, Loadsheet.seatMap[1].capacity);
+    const [mainMid1ADesired, setMainMid1ADesired] = useSeatFlags(`L:${Loadsheet.seatMap[2].simVar}_DESIRED`, Loadsheet.seatMap[2].capacity);
+    const [mainMid1BDesired, setMainMid1BDesired] = useSeatFlags(`L:${Loadsheet.seatMap[3].simVar}_DESIRED`, Loadsheet.seatMap[3].capacity);
+    const [mainMid1CDesired, setMainMid1CDesired] = useSeatFlags(`L:${Loadsheet.seatMap[4].simVar}_DESIRED`, Loadsheet.seatMap[4].capacity);
+    const [mainMid2ADesired, setMainMid2ADesired] = useSeatFlags(`L:${Loadsheet.seatMap[5].simVar}_DESIRED`, Loadsheet.seatMap[5].capacity);
+    const [mainMid2BDesired, setMainMid2BDesired] = useSeatFlags(`L:${Loadsheet.seatMap[6].simVar}_DESIRED`, Loadsheet.seatMap[6].capacity);
+    const [mainMid2CDesired, setMainMid2CDesired] = useSeatFlags(`L:${Loadsheet.seatMap[7].simVar}_DESIRED`, Loadsheet.seatMap[7].capacity);
+    const [mainAftADesired, setMainAftADesired] = useSeatFlags(`L:${Loadsheet.seatMap[8].simVar}_DESIRED`, Loadsheet.seatMap[8].capacity);
+    const [mainAftBDesired, setMainAftBDesired] = useSeatFlags(`L:${Loadsheet.seatMap[9].simVar}_DESIRED`, Loadsheet.seatMap[9].capacity);
 
-    const activeFlags = useMemo(() => [aFlags, bFlags, cFlags, dFlags], [aFlags, bFlags, cFlags, dFlags]);
-    const desiredFlags = useMemo(() => [aFlagsDesired, bFlagsDesired, cFlagsDesired, dFlagsDesired], [aFlagsDesired, bFlagsDesired, cFlagsDesired, dFlagsDesired]);
-    const setDesiredFlags = useMemo(() => [setAFlagsDesired, setBFlagsDesired, setCFlagsDesired, setDFlagsDesired], []);
+    const activeFlags = useMemo(
+        () => [mainFwdA, mainFwdB, mainMid1A, mainMid1B, mainMid1C, mainMid2A, mainMid2B, mainMid2C, mainAftA, mainAftB],
+        [mainFwdA, mainFwdB, mainMid1A, mainMid1B, mainMid1C, mainMid2A, mainMid2B, mainMid2C, mainAftA, mainAftB],
+    );
+    const desiredFlags = useMemo(
+        () => [mainFwdADesired, mainFwdBDesired, mainMid1ADesired, mainMid1BDesired, mainMid1CDesired, mainMid2ADesired, mainMid2BDesired, mainMid2CDesired, mainAftADesired, mainAftBDesired],
+        [mainFwdADesired, mainFwdBDesired, mainMid1ADesired, mainMid1BDesired, mainMid1CDesired, mainMid2ADesired, mainMid2BDesired, mainMid2CDesired, mainAftADesired, mainAftBDesired],
+    );
+    const setDesiredFlags = useMemo(
+        () => [setMainFwdADesired, setMainFwdBDesired, setMainMid1ADesired, setMainMid1BDesired, setMainMid1CDesired, setMainMid2ADesired, setMainMid2BDesired, setMainMid2CDesired, setMainAftADesired, setMainAftBDesired],
+        [],
+    );
 
     const [fwdBag] = useSimVar(`L:${Loadsheet.cargoMap[0].simVar}`, 'Number', 200);
-    const [aftCont] = useSimVar(`L:${Loadsheet.cargoMap[1].simVar}`, 'Number', 200);
-    const [aftBag] = useSimVar(`L:${Loadsheet.cargoMap[2].simVar}`, 'Number', 200);
-    const [aftBulk] = useSimVar(`L:${Loadsheet.cargoMap[3].simVar}`, 'Number', 200);
+    const [aftBag] = useSimVar(`L:${Loadsheet.cargoMap[1].simVar}`, 'Number', 200);
+    const [aftBulk] = useSimVar(`L:${Loadsheet.cargoMap[2].simVar}`, 'Number', 200);
 
     const [fwdBagDesired, setFwdBagDesired] = useSimVar(`L:${Loadsheet.cargoMap[0].simVar}_DESIRED`, 'Number', 200);
-    const [aftContDesired, setAftContDesired] = useSimVar(`L:${Loadsheet.cargoMap[1].simVar}_DESIRED`, 'Number', 200);
-    const [aftBagDesired, setAftBagDesired] = useSimVar(`L:${Loadsheet.cargoMap[2].simVar}_DESIRED`, 'Number', 200);
-    const [aftBulkDesired, setAftBulkDesired] = useSimVar(`L:${Loadsheet.cargoMap[3].simVar}_DESIRED`, 'Number', 200);
+    const [aftBagDesired, setAftBagDesired] = useSimVar(`L:${Loadsheet.cargoMap[1].simVar}_DESIRED`, 'Number', 200);
+    const [aftBulkDesired, setAftBulkDesired] = useSimVar(`L:${Loadsheet.cargoMap[2].simVar}_DESIRED`, 'Number', 200);
 
-    const cargo = useMemo(() => [fwdBag, aftCont, aftBag, aftBulk], [fwdBag, aftCont, aftBag, aftBulk]);
-    const cargoDesired = useMemo(() => [fwdBagDesired, aftContDesired, aftBagDesired, aftBulkDesired], [fwdBagDesired, aftContDesired, aftBagDesired, aftBulkDesired]);
-    const setCargoDesired = useMemo(() => [setFwdBagDesired, setAftContDesired, setAftBagDesired, setAftBulkDesired], []);
+    const cargo = useMemo(() => [fwdBag, aftBag, aftBulk], [fwdBag, aftBag, aftBulk]);
+    const cargoDesired = useMemo(() => [fwdBagDesired, aftBagDesired, aftBulkDesired], [fwdBagDesired, aftBagDesired, aftBulkDesired]);
+    const setCargoDesired = useMemo(() => [setFwdBagDesired, setAftBagDesired, setAftBulkDesired], []);
 
     const massUnitForDisplay = usingMetric ? 'KGS' : 'LBS';
 
