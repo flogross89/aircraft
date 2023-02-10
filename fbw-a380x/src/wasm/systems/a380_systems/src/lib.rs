@@ -5,6 +5,7 @@ mod electrical;
 mod fuel;
 pub mod hydraulic;
 mod navigation;
+mod payload;
 mod pneumatic;
 mod power_consumption;
 
@@ -19,6 +20,7 @@ use electrical::{
 };
 use hydraulic::{A380Hydraulic, A380HydraulicOverheadPanel};
 use navigation::A380RadioAltimeters;
+use payload::A380Payload;
 use power_consumption::A380PowerConsumption;
 use systems::simulation::InitContext;
 
@@ -50,6 +52,7 @@ pub struct A380 {
     pneumatic_overhead: A380PneumaticOverheadPanel,
     electrical_overhead: A380ElectricalOverheadPanel,
     emergency_electrical_overhead: A380EmergencyElectricalOverheadPanel,
+    payload: A380Payload,
     fuel: A380Fuel,
     engine_1: LeapEngine,
     engine_2: LeapEngine,
@@ -88,6 +91,7 @@ impl A380 {
             pneumatic_overhead: A380PneumaticOverheadPanel::new(context),
             electrical_overhead: A380ElectricalOverheadPanel::new(context),
             emergency_electrical_overhead: A380EmergencyElectricalOverheadPanel::new(context),
+            payload: A380Payload::new(context),
             fuel: A380Fuel::new(context),
             engine_1: LeapEngine::new(context, 1),
             engine_2: LeapEngine::new(context, 2),
@@ -152,6 +156,7 @@ impl Aircraft for A380 {
             .update_after_electrical(&self.electrical, electricity);
         self.emergency_electrical_overhead
             .update_after_electrical(context, &self.electrical);
+        self.payload.update(context);
     }
 
     fn update_after_power_distribution(&mut self, context: &UpdateContext) {
