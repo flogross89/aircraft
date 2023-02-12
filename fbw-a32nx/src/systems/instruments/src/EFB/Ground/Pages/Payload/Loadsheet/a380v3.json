@@ -22,12 +22,11 @@
             "name": "MAIN FWD A",
             "capacity": 44,
             "rows": [
-                {
-                    "seats": [
-                        { "type": 2 },
+                { "seats": [
+                        { "type": 2, "yOffset": 5 },
                         { "type": 2 },
                         { "type": 2  },
-                        { "type": 2, "yOffset": 68.88 },
+                        { "type": 2, "yOffset": 54.08 },
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -36,12 +35,25 @@
                     "xOffset": 0,
                     "yOffset": 0
                 },
-                {
-                    "seats": [
-                        { "type": 2 },
+                { "seats": [
+                        { "type": 2, "yOffset": 3.5 },
                         { "type": 2 },
                         { "type": 2  },
-                        { "type": 2, "yOffset": 68.88 },
+                        { "type": 2, "yOffset": 57.08 },
+                        { "type": 2  },
+                        { "type": 2  }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2, "yOffset": 1.5 },
+                        { "type": 2 },
+                        { "type": 2  },
+                        { "type": 2, "yOffset": 61.08 },
                         { "type": 2  },
                         { "type": 2  }
                     ],
@@ -54,22 +66,8 @@
                     "seats": [
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2  },
-                        { "type": 2, "yOffset": 68.88 },
-                        { "type": 2  },
-                        { "type": 2  }
-                    ],
-                    "x": 0,
-                    "y": 0,
-                    "xOffset": 0,
-                    "yOffset": 0
-                },
-                {
-                    "seats": [
                         { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2, "yOffset": 68.88 },
+                        { "type": 2, "yOffset": 64.08 },
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -83,11 +81,11 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -101,11 +99,11 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -115,7 +113,6 @@
                     "yOffset": 0
                 }
             ],
-            "index": 0,
             "stationIndex": 1,
             "position": 70.7,
             "fill": 0.103,
@@ -130,29 +127,11 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
-                        { "type": 2 },
-                        { "type": 2 }
-                    ],
-                    "x": 0,
-                    "y": 0,
-                    "xOffset": 0,
-                    "yOffset": 0
-                },
-                {
-                    "seats": [
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -166,11 +145,29 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 9},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -184,11 +181,11 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -199,7 +196,7 @@
                 },
                 {
                     "seats": [
-                        { "type": 2, "yOffset": 45.96},
+                        { "type": 2, "yOffset": 43.56},
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2}
@@ -210,7 +207,6 @@
                     "yOffset": 0
                 }
             ],
-            "index": 1,
             "stationIndex": 2,
             "position": 70.7,
             "fill": 0.103,
@@ -225,7 +221,7 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2  },
-                        { "type": 2, "yOffset": 68.88 },
+                        { "type": 2, "yOffset": 64.08 },
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -239,7 +235,7 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2  },
-                        { "type": 2, "yOffset": 68.88 },
+                        { "type": 2, "yOffset": 64.08 },
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -253,29 +249,11 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
-                        { "type": 2 },
-                        { "type": 2 }
-                    ],
-                    "x": 0,
-                    "y": 0,
-                    "xOffset": 0,
-                    "yOffset": 0
-                },
-                {
-                    "seats": [
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -289,11 +267,29 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 9},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -303,7 +299,6 @@
                     "yOffset": 0
                 }
             ],
-            "index": 2,
             "stationIndex": 3,
             "position": 25.6,
             "fill": 0.099,
@@ -318,29 +313,11 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
-                        { "type": 2 },
-                        { "type": 2 }
-                    ],
-                    "x": 0,
-                    "y": 0,
-                    "xOffset": 0,
-                    "yOffset": 0
-                },
-                {
-                    "seats": [
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -354,29 +331,11 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
-                        { "type": 2 },
-                        { "type": 2 }
-                    ],
-                    "x": 0,
-                    "y": 0,
-                    "xOffset": 0,
-                    "yOffset": 0
-                },
-                {
-                    "seats": [
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -390,11 +349,47 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 9},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 9},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 9},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -404,7 +399,6 @@
                     "yOffset": 0
                 }
             ],
-            "index": 3,
             "stationIndex": 4,
             "position": 25.6,
             "fill": 0.1167,
@@ -419,29 +413,11 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
-                        { "type": 2 },
-                        { "type": 2 }
-                    ],
-                    "x": 0,
-                    "y": 0,
-                    "xOffset": 0,
-                    "yOffset": 0
-                },
-                {
-                    "seats": [
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -455,11 +431,11 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -473,11 +449,29 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 9},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -498,7 +492,6 @@
                     "yOffset": 0
                 }
             ],
-            "index": 4,
             "stationIndex": 5,
             "position": 25.6,
             "fill":  0.1003,
@@ -512,11 +505,11 @@
                     "seats": [
                         { "type": 2, "yOffset": 11.52},
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 }
                     ],
                     "x": 0,
@@ -529,29 +522,11 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
-                        { "type": 2 },
-                        { "type": 2 }
-                    ],
-                    "x": 0,
-                    "y": 0,
-                    "xOffset": 0,
-                    "yOffset": 0
-                },
-                {
-                    "seats": [
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -565,11 +540,11 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -583,11 +558,29 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 9},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -597,7 +590,6 @@
                     "yOffset": 0
                 }
             ],
-            "index": 5,
             "stationIndex": 6,
             "position": -16.1,
             "fill": 0.112,
@@ -612,29 +604,11 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
-                        { "type": 2 },
-                        { "type": 2 }
-                    ],
-                    "x": 0,
-                    "y": 0,
-                    "xOffset": 0,
-                    "yOffset": 0
-                },
-                {
-                    "seats": [
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -648,11 +622,11 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -666,11 +640,29 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 9},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -680,7 +672,6 @@
                     "yOffset": 0
                 }
             ],
-            "index": 6,
             "stationIndex": 7,
             "position": -16.1,
             "fill": 0.0933,
@@ -695,29 +686,11 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
-                        { "type": 2 },
-                        { "type": 2 }
-                    ],
-                    "x": 0,
-                    "y": 0,
-                    "xOffset": 0,
-                    "yOffset": 0
-                },
-                {
-                    "seats": [
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -731,11 +704,29 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 9},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -749,7 +740,7 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2  },
-                        { "type": 2, "yOffset": 68.88 },
+                        { "type": 2, "yOffset": 64.08 },
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -759,7 +750,6 @@
                     "yOffset": 0
                 }
             ],
-            "index": 7,
             "stationIndex": 8,
             "position": -16.1,
             "fill":  0.084,
@@ -774,7 +764,7 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2  },
-                        { "type": 2, "yOffset": 68.88 },
+                        { "type": 2, "yOffset": 64.08 },
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -788,7 +778,7 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2  },
-                        { "type": 2, "yOffset": 68.88 },
+                        { "type": 2, "yOffset": 64.08 },
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -802,29 +792,11 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
-                        { "type": 2 },
-                        { "type": 2 }
-                    ],
-                    "x": 0,
-                    "y": 0,
-                    "xOffset": 0,
-                    "yOffset": 0
-                },
-                {
-                    "seats": [
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -838,11 +810,29 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 9},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -852,7 +842,6 @@
                     "yOffset": 0
                 }
             ],
-            "index": 8,
             "stationIndex": 9,
             "position": -51.9,
             "fill":  0.098,
@@ -867,29 +856,11 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
-                        { "type": 2 },
-                        { "type": 2 }
-                    ],
-                    "x": 0,
-                    "y": 0,
-                    "xOffset": 0,
-                    "yOffset": 0
-                },
-                {
-                    "seats": [
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -903,11 +874,11 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -921,11 +892,29 @@
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
                         { "type": 2 },
                         { "type": 2 },
                         { "type": 2 },
-                        { "type": 2, "yOffset": 11.4},
+                        { "type": 2, "yOffset": 9},
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2, "yOffset": 1.5},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 7.5},
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2, "yOffset": 7.5},
                         { "type": 2 },
                         { "type": 2 }
                     ],
@@ -935,19 +924,73 @@
                     "yOffset": 0
                 }
             ],
-            "index": 9,
             "stationIndex": 10,
             "position": -51.9,
             "fill": 0.094,
             "simVar": "A32NX_PAX_MAIN_AFT_B"
         }
     ],
-    "seatMapUpper": [],
+    "seatMapUpper": [
+        {
+            "name": "UPPER FWD",
+            "capacity": 14,
+            "rows": [
+                { "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                },
+                {
+                    "seats": [
+                        { "type": 2 },
+                        { "type": 2 }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "xOffset": 0,
+                    "yOffset": 0
+                }
+            ],
+            "stationIndex": 11,
+            "position": 55.8,
+            "fill": 0.05,
+            "simVar": "PAX_UPPER_FWD"
+        }
+    ],
     "cargoMap": [
         {
             "name": "FWD BAGGAGE/CONTAINER",
             "weight": 28577,
-            "index": 0,
             "stationIndex": 15,
             "position": 62.4,
             "progressBarWidth": 160,
@@ -956,7 +999,6 @@
         {
             "name": "AFT BAGGAGE",
             "weight": 20310,
-            "index": 1,
             "stationIndex": 16,
             "position": -23.5,
             "progressBarWidth": 160,
@@ -965,7 +1007,6 @@
         {
             "name": "AFT BULK/LOOSE",
             "weight": 2513,
-            "index": 2,
             "stationIndex": 17,
             "position": -57.9,
             "progressBarWidth": 100,
@@ -975,197 +1016,60 @@
     "chart": {
         "performanceEnvelope": {
             "mlw": [
-                [
-                    15,
-                    42500
-                ],
-                [
-                    15,
-                    53000
-                ],
-                [
-                    17,
-                    63000
-                ],
-                [
-                    17,
-                    67400
-                ],
-                [
-                    40,
-                    67400
-                ],
-                [
-                    40,
-                    50000
-                ],
-                [
-                    35,
-                    46000
-                ],
-                [
-                    35,
-                    42500
-                ]
+                [ 29, 270000],
+                [ 29, 375000],
+                [ 29.75, 385000],
+                [ 31.5, 395000],
+                [ 43, 395000],
+                [ 43, 270000]
             ],
             "mzfw": [
-                [
-                    17,
-                    64300
-                ],
-                [
-                    40,
-                    64300
-                ],
-                [
-                    40,
-                    50000
-                ],
-                [
-                    35,
-                    46000
-                ],
-                [
-                    35,
-                    42500
-                ],
-                [
-                    15,
-                    42500
-                ]
+                [ 29, 270000],
+                [ 29, 360000],
+                [ 31.5, 365000],
+                [ 43, 365000],
+                [ 43, 270000],
+                [ 29, 270000]
             ],
             "mtow": [
-                [
-                    15,
-                    42500
-                ],
-                [
-                    15,
-                    53000
-                ],
-                [
-                    17,
-                    63000
-                ],
-                [
-                    17,
-                    72000
-                ],
-                [
-                    27,
-                    79000
-                ],
-                [
-                    36,
-                    79000
-                ],
-                [
-                    40,
-                    73500
-                ],
-                [
-                    40,
-                    58000
-                ],
-                [
-                    33,
-                    42500
-                ]
+                [ 29, 270000],
+                [ 29, 375000],
+                [ 35.75, 510000],
+                [ 43, 510000],
+                [ 43, 270000]
             ],
             "flight": [
-                [
-                    13,
-                    42500
-                ],
-                [
-                    13,
-                    52500
-                ],
-                [
-                    15,
-                    63000
-                ],
-                [
-                    15,
-                    72000
-                ],
-                [
-                    25,
-                    79000
-                ],
-                [
-                    38,
-                    79000
-                ],
-                [
-                    41,
-                    74500
-                ],
-                [
-                    41,
-                    51000
-                ],
-                [
-                    35,
-                    46000
-                ],
-                [
-                    35,
-                    42500
-                ],
-                [
-                    13,
-                    42500
-                ]
+                [ 29, 270000],
+                [ 28, 270000],
+                [ 28, 375000],
+                [ 35, 510000],
+                [ 44, 510000],
+                [ 44, 270000],
+                [ 43, 270000]
             ]
         },
         "chartLimits": {
             "weight": {
-                "min": 40000,
-                "max": 80000,
+                "min": 235000,
+                "max": 550000,
                 "lines": 9,
-                "scale": 5000,
-                "values": [
-                    80,
-                    70,
-                    60,
-                    50,
-                    40
-                ]
+                "scale": 35000,
+                "values": [ 550, 480, 410, 340, 270]
             },
             "cg": {
                 "angleRad": 0.014025,
-                "min": 12,
-                "max": 47,
+                "min": 24,
+                "max": 54,
                 "overlap": 32,
                 "highlight": 5,
-                "lines": 35,
+                "lines": 30,
                 "scale": 1,
-                "values": [
-                    15,
-                    20,
-                    25,
-                    30,
-                    35,
-                    40
-                ]
+                "values": [ 25, 30, 35, 40, 45, 50]
             },
             "labels": {
-                "mtow": {
-                    "x1": 0.65,
-                    "x2": 0.22,
-                    "y": 0.02
-                },
-                "mlw": {
-                    "x1": 0.65,
-                    "x2": 0.22,
-                    "y": 0.22
-                },
-                "mzfw": {
-                    "x1": 0.65,
-                    "x2": 0.22,
-                    "y": 0.29
-                }
+                "mtow": { "x1": 0.75, "x2": 0.3, "y": 0.1 },
+                "mlw": { "x1": 0.75, "x2": 0.12, "y": 0.47 },
+                "mzfw": { "x1": 0.75, "x2": 0.12, "y": 0.57 }
             }
         }
     }
