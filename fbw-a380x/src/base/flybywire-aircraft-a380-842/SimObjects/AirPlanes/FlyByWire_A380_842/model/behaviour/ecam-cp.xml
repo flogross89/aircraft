@@ -10,6 +10,7 @@
 
     Page State:
             - STATE_ID          <no default>    State of the simvar (L:A32NX_ECAM_SD_CURRENT_PAGE_INDEX)
+            - STATE_ID          <no default>    State of the simvar (L:A32NX_ECAM_SD_CURRENT_PAGE_INDEX)
 
     ... or ...
 
