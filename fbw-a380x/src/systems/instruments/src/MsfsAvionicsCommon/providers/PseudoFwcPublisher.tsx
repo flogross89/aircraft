@@ -23,7 +23,7 @@ export type PseudoFwcSimvars = {
   engine1EGT: number;
   engine1Fadec: boolean;
   engine1FF: number;
-  engine1Master: number;
+  engine1Master: boolean;
   engine1N1: number;
   engine1N2: number;
   engine1ReverserTransit: boolean;
@@ -33,14 +33,14 @@ export type PseudoFwcSimvars = {
   engine2EGT: number;
   engine2Fadec: boolean;
   engine2FF: number;
-  engine2Master: number;
+  engine2Master: boolean;
   engine2N1: number;
   engine2N2: number;
   engine2ReverserTransit: boolean;
   engine2ReverserDeployed: boolean;
   engine2State: number;
-  engine3Master: number;
-  engine4Master: number;
+  engine3Master: boolean;
+  engine4Master: boolean;
   wingAntiIce: boolean;
   apuBleedPressure: number;
   left1LandingGear: boolean;

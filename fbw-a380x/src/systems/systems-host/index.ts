@@ -31,6 +31,7 @@ import { SimAudioManager } from 'systems-host/systems/Communications/SimAudioMan
 import { AtsuSystem } from 'systems-host/systems/atsu';
 import { FwsCore } from 'systems-host/systems/FlightWarningSystem/FwsCore';
 import { FuelSystemPublisher } from 'systems-host/systems/FuelSystemPublisher';
+import { PseudoFwcSimvarPublisher } from 'instruments/src/MsfsAvionicsCommon/providers/PseudoFwcPublisher';
 
 class SystemsHost extends BaseInstrument {
   private readonly bus = new EventBus();
@@ -92,7 +93,9 @@ class SystemsHost extends BaseInstrument {
 
   private readonly fuelssystemPublisher = new FuelSystemPublisher(this.bus);
 
-  private readonly fwsCore = new FwsCore(1, this.bus, this);
+  private readonly fwsCore = new FwsCore(1, this.bus);
+
+  private readonly pseudoFwcPublisher = new PseudoFwcSimvarPublisher(this.bus);
 
   private readonly legacyFuel = new LegacyFuel(this.bus);
 
@@ -121,6 +124,7 @@ class SystemsHost extends BaseInstrument {
     this.backplane.addPublisher('PowerPublisher', this.powerPublisher);
     this.backplane.addPublisher('Weightpublisher', this.weightAndBalancePublisher);
     this.backplane.addPublisher('FuelPublisher', this.fuelssystemPublisher);
+    this.backplane.addPublisher('PseudoFwcPublisher', this.pseudoFwcPublisher);
     this.backplane.addInstrument('LegacyFuel', this.legacyFuel);
 
     this.hEventPublisher = new HEventPublisher(this.bus);
